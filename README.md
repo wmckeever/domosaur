@@ -26,7 +26,7 @@ Remember that any CSS selector will work, not just tag names!
 
 ```javascript
 const makeBold = function() {
-  heading.fontWeight = 600;
+  heading.style.fontWeight = 600;
 }
 ```
 
@@ -41,7 +41,7 @@ Note that sometimes we might want to run makeBold when something OTHER than `hea
 
 ### And Now, Some Warmup Challenges
 
-Flex your querySelectors!
+No need for event listeners for this one. Just flex those querySelectors muscles!
 
 1. Change the span with the class `mess-with-me` to have a font size of 3em.
 
@@ -66,5 +66,5 @@ Flex your querySelectors!
 
 ### Stretch Goals
 
-1. Make it so that when you click the "Switch Background Color" button, you switch it back and forth from white to whatever color you chose. This doesn't require another event listener, but, rather, a rewrite of the function you made into your event listener.
-2. Add a new event listener so that when the `biggify` dinosaur is no longer hovered, they change back to their original size. You'll have to use a different kind of event than you did before, but... it's a related event with a similar name.
+1. Make it so that when you click the "Switch Background Color" button, you switch it back and forth from white to whatever color you chose. This doesn't require another event listener, but, rather, a rewrite of the function you made into your event listener. **Hint:** when you haven't explicitly set the background color **through JavaScript** yet, its value will always be an empty string, no matter what you've set it to in other sources (like the browser's default white background, or through your own CSS file).
+2. Add a new event listener so that when the `biggify` dinosaur is no longer hovered, they change back to their original size.  **Hint:** same as the above one, but for its width! **Hint 2:** You'll have to use a different kind of event than you did before, but... it's a related event with a similar name.
