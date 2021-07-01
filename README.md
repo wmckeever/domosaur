@@ -6,7 +6,7 @@ We'll be writing code that will turn [this page with no JavaScript](https://domo
 
 ### Guidelines
 
-* You will be working with JavaScript ONLY for this project. You can (and should) refer to the CSS and HTML files, but you will do all of your work in `main.js`.
+* You will be working with JavaScript ONLY for this project. You can refer to the CSS and HTML files, but you will do all of your work in `main.js`.
 * You must put all functions in variables and pass them into `addEventListener`. No anonymous functions for now. They should all have names! See the example below, and stick to that format.
 
 
