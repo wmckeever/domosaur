@@ -46,7 +46,7 @@ No need for event listeners for this one. Just flex those querySelectors muscles
 
 4. Change the first dinosaur image so that the image's dimensions are 324 pixels wide.
 
-### Event Listener Challenges
+## Event Listener Challenges
 
 1. Add an event listener to the span with the class `mess-with-me` so that when it is clicked, the font color changes to orange.
 
@@ -58,8 +58,7 @@ No need for event listeners for this one. Just flex those querySelectors muscles
 
 5. Add an event listener to the dinosaur with the id `biggify` that, when HOVERED, grows the image to 200 pixels wide. Note that this is a different event, and you'll likely need to do some research on what different string you'll need to pass. It's not gonna be `click`!
 
-
-### Stretch Goals
+## Stretch Goals
 
 1. Make it so that when you click the "Switch Background Color" button, you switch it back and forth from white to whatever color you chose. This doesn't require another event listener, but, rather, a rewrite of the function you made into your event listener. **Hint:** when you haven't explicitly set the background color **through JavaScript** yet, its value will always be an empty string, no matter what you've set it to in other sources (like the browser's default white background, or through your own CSS file).
 
