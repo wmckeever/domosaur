@@ -1,16 +1,14 @@
 # DOMosaur
 
-### Introduction
+## Introduction
 
 We'll be writing code that will turn [this page with no JavaScript](https://domosaur.surge.sh) into [this page with lots of interactivity](https://domosaur-solution.surge.sh).
 
-### Guidelines
+## Guidelines
 
 * You will be working with JavaScript ONLY for this project. You can refer to the CSS and HTML files, but you will do all of your work in `main.js`.
-* You must put all functions in variables and pass them into `addEventListener`. No anonymous functions for now. They should all have names! See the example below, and stick to that format.
 
-
-### An Example For Reference
+## An Example For Reference
 
 What are the steps needed for this?
 
@@ -22,7 +20,7 @@ Remember that any CSS selector will work, not just tag names!
 
 2. Write the listener function that will run when that element is interacted with.
 
-```javascript
+```
 function makeBold() {
   heading.style.fontWeight = 600;
 }
@@ -36,7 +34,7 @@ Nothing wrong with hardcoding in what element we affect! (For now.)
 
 Note that sometimes we might want to run `makeBold` when something OTHER than `heading` is interacted with! That way we can allow interactivity with one element to affect another.
 
-### And Now, Some Warmup Challenges
+## And Now, Some Warmup Challenges
 
 No need for event listeners for this one. Just flex those querySelectors muscles!
 
