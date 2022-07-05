@@ -12,7 +12,7 @@ We'll be writing code that will turn [this page with no JavaScript](https://domo
 
 No need for event listeners for this one. Just flex those querySelectors muscles!
 
-1. Change the span with the class `mess-with-me` to have a font size of 40px.
+1. Change the span with the class `mess-with-me` to have a font size of 40px. (A span is an inline element tag, typically used inside a block of text)
 
 2. Change the paragraph with the class `mess-with-me` to have a background color of green.
 
