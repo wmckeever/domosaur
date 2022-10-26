@@ -39,10 +39,10 @@ let dinoButton = document.querySelector('#toggle');
 let dinoRow = document.querySelector('#row');
 
 dinoButton.addEventListener('click', function(){
-  if (dinoRow.style.backgroundColor === "white"){
+  if (dinoRow.style.backgroundColor === ""){
     dinoRow.style.backgroundColor = "yellow";
   }else {
-    dinoRow.style.backgroundColor = "white";
+    dinoRow.style.backgroundColor = "";
   }
 })
 
